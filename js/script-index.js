@@ -4,6 +4,16 @@ $(document).ready( function(){
 	renderHighlightedRecipes(recipesArray);
 	$(".icon-arrow-left-alt").hide();
 
+	function printNews(){
+		
+
+	var noticias = $('#noticias');
+	noticias.append("Nuevas noticias");
+	console.log(noticias);
+
+
+}
+printNews();
 });
 
 
@@ -42,5 +52,7 @@ function renderActivities(activitiesArray) {
 function renderActivity(recipe) {
 	
 }
+
+
 
 
