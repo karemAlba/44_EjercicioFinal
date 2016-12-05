@@ -25,7 +25,6 @@ function renderHighlightedRecipes(recipesArray) {
 	console.log('Recipes: ', recipesArray);
 	
 	var objetos = _.where(recipesArray, {highlighted: true});
-	console.log (objetos);
 	renderRecipe(objetos);
 
 	
