@@ -24,7 +24,7 @@ var recipesArray = [
       "Cut the cheese into bite-sized cubes and put them in the bowl of a food processor with 1 ounce (30g) of the cream cheese, wine, garlic, and the black and red peppers.",
       "Process the mixture until completely smooth. If it is not completely smooth (which may happen if you are starting with an assortment of harder cheeses), add the additional cream cheese, and continue to process."
     ],
-    "name": "img/recipes/320x350/spring-fromage-fort.jpg"
+    "name": "spring-fromage-fort"
   },
   {
     "title": "Classic Ragu Bolognese",
