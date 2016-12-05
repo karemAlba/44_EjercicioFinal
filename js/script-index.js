@@ -79,6 +79,29 @@ function renderRecipe(recipe) {
 
 }
 
+/*function renderRecipe2(objetos){
+	var template = 
+		'<a class="item-recipe">' +
+			'<span class="attribution">' +
+				'<span class="title-recipe"><%= recipe.title %></span>' +
+			'</span>' +
+			'<span class="metadata-recipe">' +
+				'<span class="author-recipe"><%= recipe.source.name %></span>' +
+				'<span class="bookmarks-recipe">' +
+					'<span class="icon-bookmark"></span>' +
+				'</span>' +
+			'</span>' +
+			'<img src="<%= recipe.source.url %>">' +
+		'</a>';
+
+	var compiled = _.template( template );
+	var li = compiled(pet);
+	console.log(li);
+
+	var elemento = $(li);
+	$('#petList').append(elemento);
+}*/
+
 /*
 * Función que se encarga de pintar todas las actividades
 */
