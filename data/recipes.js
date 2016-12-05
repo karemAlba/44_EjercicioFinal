@@ -7,7 +7,7 @@ var recipesArray = [
     "excerpt": "When I’ve got too many cheese bits on hand, it's now fromage fort to the rescue",
     "source": {
       "name": "David Lebovitz",
-      "url": "http://www.davidlebovitz.com/2014/04/fromage-forte-cheese-dip-spread-recipe/"
+      "url": "http://www.xplorhonduras.com/wp-content/uploads/comida-tipica-de-atlantida-honduras1-400x300.jpg"
     },
     "cookTime": "15 min",
     "ingredients": [
@@ -153,7 +153,7 @@ var recipesArray = [
     "excerpt": "It is a thing of beauty, shaped into a large oval loaf and glazed with tangy cocktail sauce",
     "source": {
       "name": "Food52",
-      "url": "http://food52.com/recipes/24302-fatted-calf-s-meatloaf"
+      "url": "http://www.xplorhonduras.com/wp-content/uploads/comida-tipica-garifuna-honduras-400x300.jpg"
     },
     "cookTime": "1 hr 30 min",
     "ingredients": [
@@ -313,7 +313,7 @@ var recipesArray = [
     "excerpt": "Juicy, fragrant, perfectly textured for a little fire action",
     "source": {
       "name": "Tartelette",
-      "url": "http://www.tarteletteblog.com/2011/07/recipe-gluten-free-apricots-honey-panna.html"
+      "url": "http://2.bp.blogspot.com/-kfL-H0rzPck/VGEJwLFKqMI/AAAAAAAAAC8/-CaxznemjW4/s1600/lasa.jpg"
     },
     "cookTime": "35 min",
     "ingredients": [
@@ -422,7 +422,7 @@ var recipesArray = [
     "excerpt": "Making homemade pasta may seem arduous, but this dish is worth the extra work",
     "source": {
       "name": "Martha Stewart",
-      "url": "http://www.marthastewart.com/857657/roasted-butternut-squash-lasagna"
+      "url": "http://img.recetas-de-cocina.net.s3.amazonaws.com/wp-content/uploads/2006/09/camarones-tamarindo.jpg"
     },
     "cookTime": "1 hr 35 min",
     "ingredients": [
@@ -572,7 +572,7 @@ var recipesArray = [
     "excerpt": "A good braise always trumps a steak or a roast, both in terms of complex flavors and satisfaction",
     "source": {
       "name": "NY Times",
-      "url": "http://www.nytimes.com/recipes/1014424/italian-red-wine-braised-duck-with-olive-gremolata.html"
+      "url": "http://www.swagger.mx/media/bi/mediabrowser/2016/06/comida-fibra-6-quinoa.jpg"
     },
     "cookTime": "2 hr 30 min",
     "ingredients": [
@@ -709,7 +709,7 @@ var recipesArray = [
     "excerpt": "A good chocolate tart doesn’t need to be fancy, but it needs to be deep, dark, and yes, somewhat decadent.",
     "source": {
       "name": "David Lebovitz",
-      "url": "http://www.davidlebovitz.com/2011/10/chocolate-tart-recipe/"
+      "url": "http://2.bp.blogspot.com/-OfxOUid2Dnk/TznrHd8bcmI/AAAAAAAAAC8/JkIcghRlOyM/s1600/marisc.JPG"
     },
     "cookTime": "1 hr",
     "ingredients": [

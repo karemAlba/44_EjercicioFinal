@@ -23,11 +23,9 @@ $(document).ready( function(){
 */
 function renderHighlightedRecipes(recipesArray) {
 	console.log('Recipes: ', recipesArray);
-	
-	var objetos = _.where(recipesArray, {highlighted: true});
-	renderRecipe(objetos);
 
-	
+	var objetos = _.where(recipesArray, {highlighted: true});
+	_.each(objetos, renderRecipe);
 
 }
 
@@ -39,9 +37,47 @@ function renderHighlightedRecipes(recipesArray) {
 */
 function renderRecipe(recipe) {
 	console.log('Voy a pintar la receta: ', recipe);
+
+	var a = $('<a></a>');
+	a.addClass('item-recipe');
+
+	var spanPa = $('<span><span/>');
+	spanPa.addClass("attribution");
+
+	var spanHiu = $('<span><span/>');
+	spanHiu.addClass("title-recipe");
+	spanHiu.text(recipe.title);
+
+	var spanHid = $('<span><span/>');
+	spanHid.addClass("metadata-recipe");
+
+	var spanNiu = $('<span><span/>');
+	spanNiu.addClass("author-recipe");
+	spanNiu.text(recipe.source.name);
+
+	var spanNid = $('<span><span/>');
+	spanNid.addClass("bookmarks-recipe");
+	
+	var spanBis = $('<span></span>');
+	spanBis.addClass("icon-bookmark");
+
+	var img = $('<img/>');
+	img.attr('src', recipe.source.url);
+
+
+	
+	a.append(spanPa);
+	spanPa.append(spanHiu);
+	spanPa.append(spanHid);
+	spanHid.append(spanNiu);
+	spanPa.append(spanNid);
+	spanNid.append(spanBis);
+	a.append(img);
+
+	console.log(a);
+	$('.list-recipes').append(a);
+
 }
-
-
 
 /*
 * Función que se encarga de pintar todas las actividades
