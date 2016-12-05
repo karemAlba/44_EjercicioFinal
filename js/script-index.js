@@ -87,10 +87,9 @@ function renderActivities(activitiesArray) {
 	console.log('Activities: ', activitiesArray);
 	
 	_.each(activitiesArray, renderActivity);
+	if(activitiesArray>0){
 	$('.wrapper-message').hide();
-	
-
-
+}
 
 }
 
@@ -99,8 +98,30 @@ function renderActivities(activitiesArray) {
 * Aqui se tiene que crear el HTML que esta en el 
 * archivo "templates/templates-activity.html"
 */
-function renderActivity(recipe) {
-	
+function renderActivity(activity) {
+
+	var template =
+	'<a href="#" class="item-activity">' +
+		'<span class="attribution">' +
+			'<span class="avatar">' +
+				'<img class="image-avatar" src="<%= activity.userAvatar %>">' +
+			'</span>' +
+			'<span class="meta">' +
+				'<span class="author"><%= activity.userName %></span> made' +
+				'<span class="recipe"><%= activity.recipeName %></span>' +
+				'<span class="location">&mdash<%= activity.place %></span>' +
+			'</span>' +
+		'</span>' +
+		'<div class="bg-image" style="background-image: url(&quot;<%=activity.image %>&quot;)"></div>' +
+	'</a>';
+
+	var compiled = _.template(template);
+	var a = compiled({activity:activity});
+	console.log(a);
+
+	var elemento = $(a);
+	//list-activities clase del div que está en el archivo html index
+	$('.list-activities').append(elemento);
 }
 
 
